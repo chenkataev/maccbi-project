@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const usersDataPath = '../data.json';
+const usersDataPath = './data.json';
 
 const createFile = () => {
     fs.writeFileSync(usersDataPath, JSON.stringify({}), 'utf8');
